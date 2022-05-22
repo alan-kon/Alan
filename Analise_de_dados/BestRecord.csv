@@ -1,0 +1,25 @@
+##,s
+1,NewLayout := RECORD
+2,UNSIGNED4 id;
+3,STRING9 case_number;
+4,STRING22 date;
+5,STRING38 block;
+6,STRING4 iucr;
+7,STRING33 primary_type;
+8,STRING60 description;
+9,STRING53 location_description;
+10,STRING5 arrest;
+11,STRING5 domestic;
+12,STRING4 beat;
+13,STRING3 district;
+14,UNSIGNED1 ward;
+15,UNSIGNED1 community_area;
+16,STRING3 fbi_code;
+17,UNSIGNED4 x_coordinate;
+18,UNSIGNED4 y_coordinate;
+19,UNSIGNED2 year;
+20,STRING22 updated_on;
+21,REAL8 latitude;
+22,REAL8 longitude;
+23,STRING29 location;
+24,END;
